@@ -37,9 +37,9 @@ body {
 }
 
 .animated_march_text {
-    padding-top: 2em;
+    padding-top: 1em;
     font-family: Arial, sans-serif;
-    font-size: 5em;
+    font-size: 3em;
     background: linear-gradient(to bottom, #4ad382, #ec533f);/*3faeec*/
     -webkit-background-clip: text; /*HAPPY WOMEN DAY*/
     -webkit-text-fill-color: transparent; /**/
@@ -47,9 +47,9 @@ body {
     animation: appear 1s ease forwards, move 3s ease infinite alternate;
 }
 .animated_march_text2 {
-    padding-top: 2em;
+    padding-top: 1em;
     font-family: Arial, sans-serif;
-    font-size: 2em;
+    font-size: 3em;
     background: linear-gradient(to bottom, #4ad382, #ec873f);
     -webkit-background-clip: text; /**/
     -webkit-text-fill-color: transparent; /**/
