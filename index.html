@@ -20,19 +20,17 @@
     </div>
 </div>
 
-<audio id="backgroundMusic">
+<audio id="backgroundMusic" autoplay loop>
     <source src="Kygo & AvaMax-Whatever.mp3" type="audio/mpeg">
     Trình duyệt của bạn không hỗ trợ phát âm thanh.
 </audio>
 
-<h1>Nhấp chuột vào trang để phát nhạc!</h1>
-
 <script>
-    // Khi người dùng nhấp chuột, phát nhạc
-    document.body.addEventListener('click', function() {
+    // Cố gắng phát nhạc khi trang tải xong
+    window.addEventListener('load', function() {
         var audio = document.getElementById("backgroundMusic");
         audio.play().catch(function(error) {
-            console.log("Không thể phát nhạc: ", error);
+            console.log("Không thể phát nhạc tự động: ", error);
         });
     });
 </script>

@@ -42,7 +42,7 @@ body {
     font-size: 5em;
     background: linear-gradient(to bottom, #4ad382, #ec533f);/*3faeec*/
     -webkit-background-clip: text; /*HAPPY WOMEN DAY*/
-    -webkit-text-fill-color: transparent; /*  */
+    -webkit-text-fill-color: transparent; /**/
     opacity: 0;
     animation: appear 1s ease forwards, move 3s ease infinite alternate;
 }
@@ -51,7 +51,7 @@ body {
     font-family: Arial, sans-serif;
     font-size: 2em;
     background: linear-gradient(to bottom, #4ad382, #ec873f);
-    -webkit-background-clip: text; /*  */
+    -webkit-background-clip: text; /**/
     -webkit-text-fill-color: transparent; /**/
     opacity: 0;
     animation: appear 1s ease forwards, move 3s ease infinite alternate;
